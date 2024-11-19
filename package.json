@@ -1,15 +1,12 @@
 {
   "name": "restaurant-website",
   "private": true,
-  "homepage": "https://mennamassri.github.io/restaurantss-website",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
   "dev": "vite",
   "build": "vite build",
   "lint": "eslint .",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
   "preview": "vite preview"
 }
 ,
